@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funktiolaskin</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Funktiolaskin</h1>
+    <form id="functionForm">
+        <table>
+            <tr>
+                <td><label for="function">Funktio f(x):</label></td>
+                <td><input type="text" id="function" required></td>
+            </tr>
+            <tr>
+                <td><label for="xStart">x-alueen alku:</label></td>
+                <td><input type="number" id="xStart" required></td>
+            </tr>
+            <tr>
+                <td><label for="xEnd">x-alueen loppu:</label></td>
+                <td><input type="number" id="xEnd" required></td>
+            </tr>
+            <tr>
+                <td><label for="xStep">x askel:</label></td>
+                <td><input type="number" id="xStep" required></td>
+            </tr>
+            <tr>
+                <td><label for="yScale">y-asteikkokerroin:</label></td>
+                <td><input type="number" id="yScale" value="1" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Laske</button></td>
+            </tr>
+        </table>
+    </form>
+    <h2>Arvot</h2>
+    </body>
+   </html>
